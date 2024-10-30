@@ -1,0 +1,64 @@
+.garage-name {
+  margin-top: 60px;
+}
+
+button[disabled] {
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.page-btn-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.page-name,
+.page-name-winner {
+  margin: 0;
+}
+
+.car {
+  margin-bottom: -20px;
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  mask: url('../../assets/car.svg') center / contain no-repeat;
+}
+
+.car-winner {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  mask: url('../../assets/car.svg') center / contain no-repeat;
+}
+
+.cars-container {
+  width: 100%;
+  border-bottom: 1px dashed white;
+}
+
+.cars-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.cars-race {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flag {
+  width: 60px;
+  height: 60px;
+  margin-right: 80px;
+  background-color: red;
+  mask: url('../../assets/flag.svg') center / contain no-repeat;
+}
+
+.unactive {
+  display: none;
+}

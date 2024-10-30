@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px 20px;
+  margin: 0;
+  color: white;
+  gap: 30px;
+}

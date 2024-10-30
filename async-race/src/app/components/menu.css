@@ -1,0 +1,63 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.switch-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.page-switch,
+.race-button,
+.reset-button {
+  background-color: rgb(112, 227, 118);
+  border: 1px solid #1d6f3a;
+  border-radius: 2px;
+  width: 100px;
+}
+
+.create-input,
+.update-input {
+  width: 197px;
+}
+
+.config-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.config {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.create-color,
+.update-color {
+  width: 45px;
+}
+
+.create-button,
+.update-button {
+  width: 90px;
+}
+
+.generate-button {
+  width: 140px;
+}
+
+.winner-msg {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 50px;
+  border-radius: 10px;
+  background-color: rgba(144, 205, 147, 0.545);
+}
